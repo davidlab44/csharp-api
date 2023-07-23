@@ -29,7 +29,14 @@ namespace DfvApiPrueba.Controllers
           {
               return NotFound();
           }
-            return await _context.Products.ToListAsync();
+
+            
+            //return await _context.Products.ToListAsync();
+            return _context.Products
+      .FromSqlRaw($"SELECT TOP 1 * FROM products")
+      .ToList();
+
+            //_context.Products.FromSqlRaw("SELECT * FROM products").ToList();
         }
 
         // GET: api/Products/5
