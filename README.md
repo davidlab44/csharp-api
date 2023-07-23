@@ -1,7 +1,7 @@
 # csharp-api
 csharp-api
 
-this api is linked to a simple sql server 2019 database named 'dfv2' with only a table name 'dbo.products' with 2 columns 'id_Column','name'
+This api is linked to a simple sql server 2019 database named 'dfv2' with only a table name 'dbo.products' with 2 columns 'id_Column','name'
 
 ![image](https://github.com/davidlab44/csharp-api/assets/49595047/59dae74c-9090-456d-bfab-8a7688c07ea6)
 
